@@ -1,22 +1,17 @@
-import { useState } from 'react'
-import logo from './logo.svg'
+import React from 'react'
 import './App.css'
 import background from './assets/images/3629542.jpg';
 import seven from './assets/images/seven.png';
-import border from './assets/images/border3.png';
 import "./assets/fairy.scss"
-import Sparkle from 'react-sparkle'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="h-screen text-center mx-auto" style={{background: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${background})`, backgroundSize:'cover'}}>
       <div className='h-screen'>
       <div className="relative text-center container mx-auto  flex justify-center">
       <div className='container absolute top-0 -left-10'> </div>
-      <Sparkle fadeOutSpeed={20} flicker={true} flickerSpeed={'slower'} minSize={10}
-  maxSize={20} />
+   
         <img src={seven} className="mb-2 md:mb-5 mt-10 md:mt-24 w-40 h-60 md:w-72 md:h-96"/>
       </div>
        <p className="text-2xl md:text-4xl font-bold name text-pink-500 animate-pulse">JOIN US TO CELEBRATE</p>
@@ -39,8 +34,7 @@ function App() {
       <input type="checkbox" id="my-modal" className="modal-toggle"/>
       <div className="modal text-white">
         <div className="modal-box relative font-semibold w-11/12 max-w-5xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-        <Sparkle fadeOutSpeed={20} flicker={true} flickerSpeed={'normal'} minSize={5}
-  maxSize={10} />
+        
           <div className="flex flex-col md:flex-row justify-between md:px-20">
             <div>
               <h3 className="font-bold text-lg">Seven Bills 💵</h3>
