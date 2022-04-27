@@ -1,0 +1,30 @@
+{
+  "homepage": "https://yourjhay.github.io/birthday-invitation",
+  "name": "charm-invitation",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "daisyui": "^2.14.2",
+    "gh-pages": "^3.2.3",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-sparkle": "^1.0.9",
+    "sass": "^1.51.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "autoprefixer": "^10.4.5",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.24",
+    "vite": "^2.9.5"
+  }
+}
