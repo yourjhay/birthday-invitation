@@ -14,11 +14,11 @@ function App() {
    
         <img src={seven} className="mb-2 md:mb-5 mt-10 md:mt-24 w-40 h-60 md:w-72 md:h-96"/>
       </div>
-       <p className="text-2xl md:text-4xl font-bold name text-pink-500 animate-pulse">JOIN US TO CELEBRATE</p>
+       <p className="text-2xl md:text-4xl font-bold name text-pink-500">JOIN US TO CELEBRATE</p>
        <p className="mx-5 text-5xl md:text-8xl font-thin mt-5 name glow">Ellarhaine Charm's Birthday</p>
-       <p className="mx-5 mt-15 md:mt-20 text-5xl md:text-6xl font-thin mt-5 name glow">May 14 2022 | 02:00 PM</p>
+       <p className="mx-5 mt-20 md:mt-20 text-5xl md:text-6xl font-thin mt-5 name glow">May 14 2022 | 02:00 PM</p>
        <p className="mx-5 mt-10 text-2xl md:text-5xl font-bold mt-5 name glow">Phase 6 Camarin Caloocan</p>
-       <p className="mx-5 mt-10 text-2xl md:text-5xl font-bold mt-5 name glow">CATCH THE FAIRY!</p>
+       <p className="mx-5 mt-10 text-2xl md:text-5xl font-bold mt-5 name glow">Catch the fairy!</p>
       
        <label className="fairy modal-button"  htmlFor="my-modal" >
           <div className="wings"></div>
